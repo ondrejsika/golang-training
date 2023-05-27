@@ -76,6 +76,18 @@ func main() {
 }
 ```
 
+## go run
+
+```
+go run main.go
+```
+
+or
+
+```
+go run .
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
