@@ -4,7 +4,15 @@
 
 ## Course
 
-COURSE
+## Install Go
+
+- https://go.dev/doc/install
+
+### Mac
+
+```
+brew install golang
+```
 
 ## Thank you! & Questions?
 
