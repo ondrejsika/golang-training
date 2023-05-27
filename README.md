@@ -14,6 +14,68 @@
 brew install golang
 ```
 
+## Setup Go Project
+
+```
+mkdir hello-world
+```
+
+```
+cd hello-world
+```
+
+### editorconfig
+
+Create `.editorconfig` file
+
+```
+root = true
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+max_line_length = off
+[Makefile]
+indent_style = tab
+[*.go]
+indent_style = tab
+```
+
+Create `.gitignore` file using **slu**
+
+```
+slu ft ec --go
+```
+
+### go mod init
+
+```
+go mod init hello-world
+```
+
+or
+
+```
+go mod init github.com/ondrejsika/hello-world
+```
+
+### main.go
+
+Create `main.go` file
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+  fmt.Println("Hello World")
+}
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
