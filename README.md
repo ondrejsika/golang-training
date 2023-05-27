@@ -88,6 +88,44 @@ or
 go run .
 ```
 
+## go build
+
+Build
+
+```
+go build
+```
+
+and run
+
+```
+./hello-world
+```
+
+or on windows
+
+```
+./hello-world.exe
+```
+
+Build to custom name
+
+```
+go build -o hello
+```
+
+```
+go build main.go
+```
+
+### Cross Platform Build
+
+```
+GOOS=linux GOARCH=amd64 go build -o hello-linux-amd64
+GOOS=darwin GOARCH=arm64 go build -o hello-darwin-arm64
+GOOS=windows GOARCH=amd64 go build -o hello-windows-amd64.exe
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
