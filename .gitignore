@@ -6,6 +6,7 @@
 .idea
 
 # Generic
+node_modules
 *.log
 *.backup
 *.local.sh
