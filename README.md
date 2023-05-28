@@ -50,6 +50,25 @@ Create `.editorconfig` file using **slu**
 slu ft ec --go
 ```
 
+### gitignore
+
+Create simple `.gitignore` where `hello-world` is the output binary, which is the package name.
+
+```gitignore
+# Global
+.DS_Store
+
+# Editor
+.vscode
+
+# Go
+/hello-world
+/hello-world.exe
+/dist
+```
+
+or using `slu ft gitignore --go --go-package hello-world`
+
 ### go mod init
 
 ```
