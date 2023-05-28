@@ -143,6 +143,24 @@ GOOS=darwin GOARCH=arm64 go build -o dist/hello-darwin-arm64
 GOOS=windows GOARCH=amd64 go build -o dist/hello-windows-amd64.exe
 ```
 
+## A Tour of Go
+
+https://go.dev/tour/list
+
+### Offline Tour
+
+Install
+
+```
+go install golang.org/x/website/tour@latest
+```
+
+Run
+
+```
+~/go/bin/tour
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
