@@ -161,6 +161,114 @@ Run
 ~/go/bin/tour
 ```
 
+## Goreleaser
+
+- https://goreleaser.com/
+- https://github.com/goreleaser/goreleaser
+
+### Install Goreleaser
+
+- https://goreleaser.com/install/
+
+### Install Goreleaser using Go
+
+```
+go install github.com/goreleaser/goreleaser@latest
+```
+
+### Install Goreleaser on Mac
+
+```
+brew install goreleaser
+```
+
+### Create `.goreleaser.yaml`
+
+```
+gorleaser init
+```
+
+or here is my example of `.goreleaser.yaml`
+
+```yaml
+project_name: hello-world
+
+before:
+  hooks:
+    - rm -rf dist
+    - go mod tidy
+
+builds:
+  - env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - windows
+      - darwin
+
+snapshot:
+  name_template: "{{ incminor .Version }}-dev"
+
+archives:
+  - format: tar.gz
+    name_template: "{{ .ProjectName }}_v{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    format_overrides:
+      - goos: windows
+        format: zip
+
+checksum:
+  name_template: "{{ .ProjectName }}_checksums.txt"
+  algorithm: sha256
+```
+
+### Goreleaser Build
+
+Snapshot
+
+```
+goreleaser build --snapshot --rm-dist
+```
+
+Release build
+
+```
+git tag v0.1.0
+```
+
+```
+goreleaser build --rm-dist
+```
+
+### Goreleaser Release
+
+```
+goreleaser release --rm-dist
+```
+
+or just
+
+```
+goreleaser
+```
+
+Download the release from Github using **slu** on Mac
+
+```
+slu install-any-bin \
+  --url https://github.com/ondrejsika/example-for-golang-training/releases/download/v0.1.0/hello-world_v0.1.0_darwin_arm64.tar.gz \
+  --name hello-world \
+  --bin-dir .
+```
+
+or on Linux
+
+```
+slu install-any-bin \
+  --url https://github.com/ondrejsika/example-for-golang-training/releases/download/v0.1.0/hello-world_v0.1.0_linux_amd64.tar.gz \
+  --name hello-world \
+  --bin-dir .
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
