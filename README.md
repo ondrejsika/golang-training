@@ -111,19 +111,17 @@ or on windows
 Build to custom name
 
 ```
-go build -o hello
+go build -o dist/hello
 ```
 
-```
-go build main.go
-```
+You can build single file using `go build example-server.go` and output will be `example-server`
 
 ### Cross Platform Build
 
 ```
-GOOS=linux GOARCH=amd64 go build -o hello-linux-amd64
-GOOS=darwin GOARCH=arm64 go build -o hello-darwin-arm64
-GOOS=windows GOARCH=amd64 go build -o hello-windows-amd64.exe
+GOOS=linux GOARCH=amd64 go build -o dist/hello-linux-amd64
+GOOS=darwin GOARCH=arm64 go build -o dist/hello-darwin-arm64
+GOOS=windows GOARCH=amd64 go build -o dist/hello-windows-amd64.exe
 ```
 
 ## Thank you! & Questions?
