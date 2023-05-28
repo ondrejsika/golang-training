@@ -44,7 +44,7 @@ indent_style = tab
 indent_style = tab
 ```
 
-Create `.gitignore` file using **slu**
+Create `.editorconfig` file using **slu**
 
 ```
 slu ft ec --go
