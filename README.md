@@ -234,6 +234,12 @@ builds:
       - linux
       - windows
       - darwin
+    flags:
+      - -trimpath
+    ldflags:
+      - -s
+      - -w
+      - -X hello-world/version.Version=v{{.Version}}
 
 snapshot:
   name_template: "{{ incminor .Version }}-dev"
