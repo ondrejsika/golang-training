@@ -170,6 +170,26 @@ Examples
 - Simple Example - https://github.com/ondrejsika/golang-examples/tree/master/cobra_example_simple
 - Quick Start Example - https://github.com/ondrejsika/golang-examples/tree/master/cobra_example
 
+## Build Optiopns
+
+For smaller binaries
+
+```
+go build --ldflags "-s -w"
+```
+
+Trim paths
+
+```
+go build --trimpath
+```
+
+Final production build
+
+```
+go build --trimpath --ldflags "-s -w"
+```
+
 ## Goreleaser
 
 - https://goreleaser.com/
