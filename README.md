@@ -347,3 +347,12 @@ That's it. Do you have any questions? **Let's go for a beer!**
 _Do you like the course? Write me recommendation on Twitter (with handle `@ondrejsika`) and LinkedIn (add me [/in/ondrejsika](https://www.linkedin.com/in/ondrejsika/) and I'll send you request for recommendation). **Thanks**._
 
 Wanna to go for a beer or do some work together? Just [book me](https://book-me.sika.io) :)
+
+## Resources
+
+- Example Project - https://github.com/ondrejsika/example-for-golang-training
+- Golang Examples - https://github.com/ondrejsika/golang-examples
+- My Golang Projects
+  - slu - CLI utils - https://github.com/ondrejsika/slu
+  - gobble - Ansible alternative in Go - https://github.com/ondrejsika/gobble
+  - tergum - Backup tool - https://github.com/ondrejsika/slu
