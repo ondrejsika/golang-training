@@ -174,6 +174,12 @@ Examples
 - Simple Example - https://github.com/ondrejsika/golang-examples/tree/master/cobra_example_simple
 - Quick Start Example - https://github.com/ondrejsika/golang-examples/tree/master/cobra_example
 
+## Configuration with Viper
+
+- Viper with only environment variables - https://github.com/ondrejsika/golang-examples/tree/master/viper_env_only
+- Simple Viper example - https://github.com/ondrejsika/golang-examples/tree/master/viper_example
+- Cobra and Viper - https://github.com/ondrejsika/golang-examples/tree/master/viper_and_cobra_example_advanced
+
 ## Build Optiopns
 
 For smaller binaries
