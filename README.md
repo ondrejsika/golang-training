@@ -332,6 +332,15 @@ slu install-any-bin \
   --bin-dir .
 ```
 
+## Logging
+
+- https://github.com/rs/zerolog
+- https://github.com/sirupsen/logrus
+
+### Logging with Zerolog
+
+- https://github.com/ondrejsika/golang-examples/tree/master/zerolog_example
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
