@@ -347,6 +347,32 @@ slu install-any-bin \
 
 - https://github.com/ondrejsika/golang-examples/tree/master/zerolog_example
 
+### Private Modules
+
+Set `GOPRIVATE` env variable
+
+```
+export GOPRIVATE=gitlab.sikalabs.com,gitlab.sikademo.com
+```
+
+```
+export GOPRIVATE='*'
+```
+
+Use ssh keys instead of https on `gitlab.sikalabs.com`
+
+```
+git config --global url."git@gitlab.sikalabs.com:".insteadOf "https://gitlab.sikalabs.com/"
+```
+
+or use `.netrc` file
+
+```
+machine gitlab.sikalabs.com
+login token
+password glpat-rKKSwt8izeXUGGWu7PEV
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
