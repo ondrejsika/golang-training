@@ -373,6 +373,24 @@ login token
 password glpat-rKKSwt8izeXUGGWu7PEV
 ```
 
+Example
+
+```
+go get -u gitlab.sikalabs.com/go/hello-from-gitlab-private
+```
+
+```go
+// main.go
+
+package main
+
+import "gitlab.sikalabs.com/go/hello-from-gitlab-private"
+
+func main() {
+	hello.HelloFromGitlab()
+}
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
