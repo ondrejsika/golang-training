@@ -183,6 +183,12 @@ Run
 
 https://gobyexample.com/
 
+## Go Install
+
+```
+go install github.com/sikalabs/hello-world-server@latest
+```
+
 ## CLI with Cobra
 
 - https://github.com/spf13/cobra
