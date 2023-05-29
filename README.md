@@ -24,6 +24,24 @@ mkdir hello-world
 cd hello-world
 ```
 
+### VS Code Setup
+
+Install Go extension
+
+- https://marketplace.visualstudio.com/items?itemName=golang.Go
+
+Optional extensions
+
+- https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+
+For monorepo support add to `settings.json`
+
+```json
+"gopls": {
+    "experimentalWorkspaceModule": true,
+}
+```
+
 ### editorconfig
 
 Create `.editorconfig` file
