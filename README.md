@@ -347,6 +347,29 @@ slu install-any-bin \
 
 - https://github.com/ondrejsika/golang-examples/tree/master/zerolog_example
 
+## Writing Docs
+
+- https://go.dev/blog/godoc
+
+Example
+
+- https://gitlab.sikalabs.com/go/hello-from-gitlab-demo
+- https://pkg.go.dev/gitlab.sikalabs.com/go/hello-from-gitlab-demo
+
+### godoc server
+
+Install
+
+```
+go install golang.org/x/tools/cmd/godoc@latest
+```
+
+Run
+
+```
+~/go/bin/godoc -http=:8080
+```
+
 ### Private Modules
 
 Set `GOPRIVATE` env variable
