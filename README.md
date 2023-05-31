@@ -292,6 +292,14 @@ checksum:
   algorithm: sha256
 ```
 
+For custom Gitlab, you have to add `gitlab_urls` section
+
+```yaml
+gitlab_urls:
+  api: https://gitlab.sikalabs.com/api/v4/
+  download: https://gitlab.sikalabs.com
+```
+
 ### Goreleaser Build
 
 Snapshot
