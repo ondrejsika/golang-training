@@ -438,3 +438,10 @@ Wanna to go for a beer or do some work together? Just [book me](https://book-me.
   - slu - CLI utils - https://github.com/ondrejsika/slu
   - gobble - Ansible alternative in Go - https://github.com/ondrejsika/gobble
   - tergum - Backup tool - https://github.com/ondrejsika/slu
+
+## Training Sessions
+
+#### 2023-05-29
+
+- https://github.com/golang-training-examples/example1
+- https://gitlab.sikalabs.com/go/hello-world
