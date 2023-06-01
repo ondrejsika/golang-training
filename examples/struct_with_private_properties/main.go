@@ -6,7 +6,11 @@ import (
 )
 
 func main() {
-	p := pets.Pet{}
-	p.SetName("Dela")
-	fmt.Println(p.Name())
+	dela := pets.Pet{}
+	dela.SetName("Dela")
+	fmt.Println(dela.Name())
+
+	nela := pets.Pet{}
+	pets.SetName(&nela, "Nela")
+	fmt.Println(pets.Name(nela))
 }
