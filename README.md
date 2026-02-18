@@ -189,6 +189,11 @@ https://gobyexample.com/
 go install github.com/sikalabs/hello-world-server@latest
 ```
 
+Another Go Install examples:
+
+- https://github.com/ondrejsikax/kubernetes-list-nodes
+- https://github.com/ondrejsikax/kubernetes-list-scripts
+
 ## CLI with Cobra
 
 - https://github.com/spf13/cobra
