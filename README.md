@@ -408,7 +408,7 @@ or use `.netrc` file
 ```
 machine gitlab.sikalabs.com
 login token
-password glpat-rKKSwt8izeXUGGWu7PEV
+password glpat-xxx...
 ```
 
 Example
