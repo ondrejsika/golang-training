@@ -452,7 +452,7 @@ Wanna to go for a beer or do some work together? Just [book me](https://book-me.
 - My Golang Projects
   - slu - CLI utils - https://github.com/ondrejsika/slu
   - gobble - Ansible alternative in Go - https://github.com/ondrejsika/gobble
-  - tergum - Backup tool - https://github.com/ondrejsika/slu
+  - tergum - Backup tool - https://github.com/ondrejsika/tergum
 
 ## Training Sessions
 
