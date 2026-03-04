@@ -4,6 +4,31 @@
 
 ## Course
 
+## About Me - Ondrej Sika
+
+**Freelance DevOps Engineer, Consultant & Lecturer**
+
+- Complete DevOps Pipeline
+- Open Source / Linux Stack
+- Cloud & On-Premise
+- Technologies: Git, Gitlab, Gitlab CI, Docker, Kubernetes, Terraform, Prometheus, ELK / EFK, Rancher, Proxmox
+
+## Star, Create Issues, Fork, and Contribute
+
+Feel free to star this repository or fork it.
+
+If you found bug, create issue or pull request.
+
+Also feel free to propose improvements by creating issues.
+
+### Chat
+
+For sharing links & "secrets".
+
+- Slack - https://sikapublic.slack.com/
+- Microsoft Teams
+- https://sika.link/chat (tlk.io)
+
 ## Install Go
 
 - https://go.dev/doc/install
