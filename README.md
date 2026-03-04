@@ -189,6 +189,10 @@ https://gobyexample.com/
 go install github.com/sikalabs/hello-world-server@latest
 ```
 
+```
+go install github.com/sikalabs/slu@latest
+```
+
 Another Go Install examples:
 
 - https://github.com/ondrejsikax/kubernetes-list-nodes
