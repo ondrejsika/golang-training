@@ -450,7 +450,8 @@ Wanna to go for a beer or do some work together? Just [book me](https://book-me.
 - Example Project - https://github.com/ondrejsika/example-for-golang-training
 - Golang Examples - https://github.com/ondrejsika/golang-examples
 - My Golang Projects
-  - slu - CLI utils - https://github.com/ondrejsika/slu
+  - slu - SikaLabs utils - https://github.com/ondrejsika/slu
+  - slr - SikaLabs random utils - https://github.com/ondrejsika/slr
   - gobble - Ansible alternative in Go - https://github.com/ondrejsika/gobble
   - tergum - Backup tool - https://github.com/ondrejsika/tergum
 
